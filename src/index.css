@@ -34,3 +34,43 @@ body {
   margin-top: 60px;
   font-size:2.6rem;
 }
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: 60px;
+}
+
+form label{
+  width: 100%;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 60px;
+}
+
+form input[type="file"]{
+  display:none;
+}
+
+form span{
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid var(--primary);
+  padding: 15px 20px;
+  color: var(--primary);
+  font-size: 1.5rem;
+}
+
+form span:hover{
+  background: var(--primary);
+  color: white;
+}
+
+.progress-bar{
+  height: 5px;
+  background: var(--primary);
+  margin-top: 40px;
+}
