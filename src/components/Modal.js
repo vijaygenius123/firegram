@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Modal = ({ selectedImg }) => {
+const Modal = ({ selectedImg, setSelectedImg }) => {
 
     return (
-        <div className="backdrop">
+        <div className="backdrop" onClick={() => setSelectedImg(null)}>
             <img src={selectedImg} alt="" />
         </div>
     )
